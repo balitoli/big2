@@ -13,7 +13,7 @@ Welcome to my *Hong Kong Big Two* card game, designed with ChatGPT in a 15-hour 
 
 ## Prerequisites
 
-- **Python 3.x**: Ensure it’s installed ([Download here](https://www.python.org/downloads/)).
+- **Python 3.x**: Ensure it’s installed (This Game is teste in a Python 3.12 Environment. [Download here](https://www.python.org/downloads/)).
 - **Pygame**: For the game interface.
 - **OpenAI API** or **Ollama**: For LLM-driven AI (opponents and advice). Pick one based on your `config.py` setup.
 - **SimHei Font**: For Cantonese text rendering—place `SimHei.ttf` in your project folder (download from a free font site if needed).
