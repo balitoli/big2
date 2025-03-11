@@ -1,0 +1,10 @@
+#ignore .env file
+.env
+
+#ignore other working files
+__old
+__pycache__
+__seed
+
+#Do Not Upload The Font File
+SimHei.ttf
