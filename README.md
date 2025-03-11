@@ -20,24 +20,18 @@ Welcome to my *Hong Kong Big Two* card game, designed with ChatGPT in a 15-hour 
 
 ## Installation
 
-1. **Clone the Repo**:
-   ```bash
-   git clone https://github.com/[your-username]/[repo-name].git
-   cd [repo-name]
-   ```
-
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    ```bash
    pip install pygame
-   pip install openai  # If using OpenAI API
+   pip install openai
    ```
 
-3. **Set Up LLM Config**:
+2. **Set Up LLM Config**:
    - Edit `config.py`:
-     - For OpenAI: Add your `OPENAI_API_KEY` and set `LLM_PROVIDER = "OPENAI"`.
+     - For OpenAI: Add your `OPENAI_API_KEY` and `OPENAI_BASE_URL`, either using python-dotenv or hardcoding them,and set `LLM_PROVIDER = "OPENAI"`.
      - For Ollama: Adjust `OLLAMA_BASE_URL` (e.g., `http://localhost:11434/v1`) and set `LLM_PROVIDER = "OLLAMA"`.
 
-4. **Add Font**:
+3. **Add Font**:
    - Drop `SimHei.ttf` into the project root or adjust the font path in the code.
 
 ## Running the Game
